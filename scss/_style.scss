@@ -1,0 +1,187 @@
+.content,
+.name-photo,
+.profile,
+.education,
+.work-ex {
+  margin: 0 auto;
+  width: 1200px;
+  .font-SF-M {
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 16px;
+  }
+}
+
+// Name & Photo
+.name {
+  padding-top: 40px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #000;
+  h1 {
+    font-size: 80px;
+    line-height: 95px;
+    width: 274px;
+  }
+}
+.photo {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+// 個人資料 PROFILE
+.profile {
+  margin-bottom: 64px;
+}
+.profile h2 {
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+  .font-SF-M {
+    color: #a00404;
+  }
+}
+.profile ul {
+  font-size: 24px;
+  font-family: “蘋方黑體-細-繁”;
+  li {
+    padding-top: 8px;
+    line-height: 36px;
+    padding-bottom: 12px;
+  }
+}
+
+// 學歷 EDUCATION
+.education {
+  margin-bottom: 64px;
+}
+.education h2 {
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+  .font-SF-M {
+    color: #a00404;
+  }
+}
+.education ul {
+  font-size: 24px;
+  font-family: “蘋方黑體-細-繁”;
+  margin-top: 2px;
+  .edu-1 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 36px;
+  }
+  .edu-2 {
+    line-height: 36px;
+  }
+}
+
+// 技能 SKILLS
+.skills {
+  background-color: #415165;
+  color: #fff;
+  margin-bottom: 64px;
+  .content h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #fff;
+  }
+}
+.skills .content .skills-item {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.skills .content ul {
+  font-size: 24px;
+  font-family: “SF-Pro-Text-Light”;
+  line-height: 36px;
+  padding-left: 16px;
+  border-left: 1px solid #96a9c4;
+  margin-bottom: -8px;
+  li {
+    padding-bottom: 8px;
+  }
+}
+
+// 工作經驗 WORK EXPERIENCE
+.work-ex {
+  margin-bottom: 80px;
+}
+.work-ex h2 {
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+  .font-SF-M {
+    color: #a00404;
+  }
+}
+.work-ex .work-ex-item {
+  border-left: 1px SOLID #96a9c4;
+  margin-top: 14px;
+  margin-left: 23px;
+  margin-bottom: 80px;
+}
+.work-ex ul {
+  font-size: 24px;
+  font-family: “蘋方黑體-準-繁”;
+  padding-left: 24px;
+  li {
+    line-height: 36px;
+  }
+  .hexschool {
+    font-family: “蘋方黑體-細-繁”;
+    font-size: 20px;
+    line-height: 30px;
+    width: 642px;
+  }
+  .work-exper {
+    padding-top: 24px;
+  }
+  .simtree {
+    font-family: “蘋方黑體-細-繁”;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+// 聯絡方式 CONTACT METHOD
+.footer {
+  background-color: #415165;
+  color: #fff;
+  .content h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #fff;
+  }
+}
+.footer .content ul {
+  font-size: 24px;
+  font-family: “SF-Pro-Text-Light”;
+  text-align: center;
+  line-height: 36px;
+  padding: 24px;
+  padding-bottom: 40px;
+  li {
+    padding-bottom: 16px;
+    a {
+      color: #fff;
+    }
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-right: -24px;
+    margin-bottom: -16px;
+    img {
+      margin-right: 24px;
+    }
+  }
+}

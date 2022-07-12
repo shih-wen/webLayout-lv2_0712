@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 嵌入字型設定 */
+@font-face {
+  font-family: “蘋方黑體-中黑-繁”;
+  src: url(../fonts/蘋方黑體-中黑-繁.ttf);
+}
+@font-face {
+  font-family: “蘋方黑體-準-繁”;
+  src: url(../fonts/蘋方黑體-準-繁.ttf);
+}
+@font-face {
+  font-family: “蘋方黑體-細-繁”;
+  src: url(../fonts/蘋方黑體-細-繁.ttf);
+}
+@font-face {
+  font-family: “SF-Pro-Text-Medium”;
+  src: url(../fonts/SF-Pro-Text-Medium.otf);
+}
+@font-face {
+  font-family: “SF-Pro-Text-Regular”;
+  src: url(../fonts/SF-Pro-Text-Regular.otf);
+}
+@font-face {
+  font-family: “SF-Pro-Text-Light”;
+  src: url(../fonts/SF-Pro-Text-Light.otf);
+}
+/* 引用嵌入字型 */
+h1 {
+  font-family: “SF-Pro-Text-Regular”;
+}
+
+h2 {
+  font-family: “蘋方黑體-準-繁”;
+}
+
+.font-SF-M {
+  font-family: “SF-Pro-Text-Medium”;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 16px;
+}
+
+.font-SF-L {
+  font-family: “SF-Pro-Text-Light”;
+}/*# sourceMappingURL=font-size.css.map */

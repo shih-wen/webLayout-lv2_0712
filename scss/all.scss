@@ -1,0 +1,19 @@
+@import "reset";
+@import "font-size";
+@import "style";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+body {
+}
+
+// * {
+//   outline: 1px solid red;
+// }

@@ -1,0 +1,390 @@
+@charset "UTF-8";
+/* ===================== CSS樣式重置 =====================  */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ===================================================================== */
+/* 嵌入字型設定 */
+@font-face {
+  font-family: “蘋方黑體-中黑-繁”;
+  src: url(../fonts/蘋方黑體-中黑-繁.ttf);
+}
+@font-face {
+  font-family: “蘋方黑體-準-繁”;
+  src: url(../fonts/蘋方黑體-準-繁.ttf);
+}
+@font-face {
+  font-family: “蘋方黑體-細-繁”;
+  src: url(../fonts/蘋方黑體-細-繁.ttf);
+}
+@font-face {
+  font-family: “SF-Pro-Text-Medium”;
+  src: url(../fonts/SF-Pro-Text-Medium.otf);
+}
+@font-face {
+  font-family: “SF-Pro-Text-Regular”;
+  src: url(../fonts/SF-Pro-Text-Regular.otf);
+}
+@font-face {
+  font-family: “SF-Pro-Text-Light”;
+  src: url(../fonts/SF-Pro-Text-Light.otf);
+}
+/* 引用嵌入字型 */
+h1 {
+  font-family: “SF-Pro-Text-Regular”;
+}
+
+h2 {
+  font-family: “蘋方黑體-準-繁”;
+}
+
+.font-SF-M {
+  font-family: “SF-Pro-Text-Medium”;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 16px;
+}
+
+.font-SF-L {
+  font-family: “SF-Pro-Text-Light”;
+}
+
+.content,
+.name-photo,
+.profile,
+.education,
+.work-ex {
+  margin: 0 auto;
+  width: 1200px;
+}
+.content .font-SF-M,
+.name-photo .font-SF-M,
+.profile .font-SF-M,
+.education .font-SF-M,
+.work-ex .font-SF-M {
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 16px;
+}
+
+.name {
+  padding-top: 40px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #000;
+}
+.name h1 {
+  font-size: 80px;
+  line-height: 95px;
+  width: 274px;
+}
+
+.photo {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.profile {
+  margin-bottom: 64px;
+}
+
+.profile h2 {
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+}
+.profile h2 .font-SF-M {
+  color: #a00404;
+}
+
+.profile ul {
+  font-size: 24px;
+  font-family: “蘋方黑體-細-繁”;
+}
+.profile ul li {
+  padding-top: 8px;
+  line-height: 36px;
+  padding-bottom: 12px;
+}
+
+.education {
+  margin-bottom: 64px;
+}
+
+.education h2 {
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+}
+.education h2 .font-SF-M {
+  color: #a00404;
+}
+
+.education ul {
+  font-size: 24px;
+  font-family: “蘋方黑體-細-繁”;
+  margin-top: 2px;
+}
+.education ul .edu-1 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  line-height: 36px;
+}
+.education ul .edu-2 {
+  line-height: 36px;
+}
+
+.skills {
+  background-color: #415165;
+  color: #fff;
+  margin-bottom: 64px;
+}
+.skills .content h2 {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #fff;
+}
+
+.skills .content .skills-item {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.skills .content ul {
+  font-size: 24px;
+  font-family: “SF-Pro-Text-Light”;
+  line-height: 36px;
+  padding-left: 16px;
+  border-left: 1px solid #96a9c4;
+  margin-bottom: -8px;
+}
+.skills .content ul li {
+  padding-bottom: 8px;
+}
+
+.work-ex {
+  margin-bottom: 80px;
+}
+
+.work-ex h2 {
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+}
+.work-ex h2 .font-SF-M {
+  color: #a00404;
+}
+
+.work-ex .work-ex-item {
+  border-left: 1px SOLID #96a9c4;
+  margin-top: 14px;
+  margin-left: 23px;
+  margin-bottom: 80px;
+}
+
+.work-ex ul {
+  font-size: 24px;
+  font-family: “蘋方黑體-準-繁”;
+  padding-left: 24px;
+}
+.work-ex ul li {
+  line-height: 36px;
+}
+.work-ex ul .hexschool {
+  font-family: “蘋方黑體-細-繁”;
+  font-size: 20px;
+  line-height: 30px;
+  width: 642px;
+}
+.work-ex ul .work-exper {
+  padding-top: 24px;
+}
+.work-ex ul .simtree {
+  font-family: “蘋方黑體-細-繁”;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer {
+  background-color: #415165;
+  color: #fff;
+}
+.footer .content h2 {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer .content ul {
+  font-size: 24px;
+  font-family: “SF-Pro-Text-Light”;
+  text-align: center;
+  line-height: 36px;
+  padding: 24px;
+  padding-bottom: 40px;
+}
+.footer .content ul li {
+  padding-bottom: 16px;
+}
+.footer .content ul li a {
+  color: #fff;
+}
+.footer .content ul .social-media {
+  display: flex;
+  justify-content: center;
+  margin-right: -24px;
+  margin-bottom: -16px;
+}
+.footer .content ul .social-media img {
+  margin-right: 24px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}/*# sourceMappingURL=all.css.map */
